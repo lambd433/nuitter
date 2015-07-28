@@ -4939,3 +4939,748 @@ Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde45
 
 
 Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b3bbbf9130c1050771738b2.js?body=1" for ::1 at 2015-07-28 19:56:32 +0900
+^[[A^C[2015-07-28 22:18:01] INFO  going to shutdown ...
+[2015-07-28 22:18:01] INFO  WEBrick::HTTPServer#start done.
+Exiting
+^[[A[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [32mo[00m [37m[22:18:02]
+[1m[31m$ [00m[K[?1h=rails serverg migration AddDateTimeFromPosts datetime:datetime[38DRemoveDat[P[15C:date         [9D[23DTim[11Ctim[2Ctim[1C[23DDat[11Cdat[2Cdat[1C[23DTim[11Ctim[2Ctim[1C[23DDat[11Cdat[2Cdat[1C[29DAddDateTimeFromPosts datetime:datetime[P[27C [28D[P[27C [28D[P[27C [28D[P[27C [28D[P[27C [28D[P[27C [28D[P[27C [28D[P[27C [28DRFromPosts datetime:datetime[27DaFromPosts datetime:datetime[27DtFromPosts datetime:datetime[27DeFromPosts datetime:datetime[27D[1C[1C[1C[1C[P[23C [24D[P[23C [24D[P[23C [24D[P[23C [24DTPosts datetime:datetime[23DoPosts datetime:datetime[23D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[P[9C [10D[P[9C [10D[P[9C [10D[P[9C [10D[P[9C [10D[P[9C [10D[P[9C [10D[P[9C [10D[9C       [1C i:n:t:e:g:e:r:[1C: : : : : : : r:a:t:e:[1Cinteger[?1l>
+krails\[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20150728131857_add_rate_to_posts.rb
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[22:18:57]
+[1m[31m$ [00m[K[?1h=rails g migration AddRateToPosts rate:integer:integer [9D:integer [9D:integer [9D:integer [9Dr:integer[8Dp:integer[8D:integer [9D:integer [9Dp:integer[8Dr:integer[8Do:integer[8D:integer [9Di:integer[8Db:integer[8Da:integer[8Dt:integer[8De:integer[8D:integer [9D:integer [9D:integer [9D:integer [9D:integer [9D:integer [9D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18DOToPosts p:integer[17D[P[17C [18DPToPosts p:integer[17DuToPosts p:integer[17DbToPosts p:integer[17DlToPosts p:integer[17DiToPosts p:integer[17DcToPosts p:integer[17D[1C[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18DrToPosts p:integer[17DiToPosts p:integer[17DcToPosts p:integer[17DaToPosts p:integer[17D[P[17C [18D[P[17C [18DvToPosts p:integer[17DaToPosts p:integer[17DcToPosts p:integer[17DyToPosts p:integer[17D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C:integer [9Dp:integer[8Dr:integer[8Di:integer[8Dv:integer[8Da:integer[8Dc:integer[8Dy:integer[8D[8C :intege [8D:intege [8D:intege [8D:intege [8D:intege [8D:intege [8D:intege [8DP:integer:integei:integev:integea:integec:integey:intege[7C      : : : : : : : p:r:o:: i:v:a:c:y:: : : : : r:: i:v:a:t:e:[7C[1C[P[16C [17D[P[16C [17DtToPosts private:[16DeToPosts private:[16D[16Cboolen an[?1l>
+krails\[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20150728132056_add_private_to_posts.rb
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[22:20:56]
+[1m[31m$ [00m[K[?1h=rails g migration AddPrivateToPosts private:boolean[1C       string:string [8D:string [8D:string [8D:string [8D:string [8D:string [8D:string [8D[1C[1C[1C[1C[1C[1C[1Cn:stringa:stringm:stringe:string:string [8D:string [8D:string [8D:string [8D[1C[1C[1C[P[15C [16D[P[15C [16D[P[15C [16D[P[15C [16D[P[15C [16D[P[15C [16D[P[15C [16DAToPosts :string[15DcToPosts :string[15DcToPosts :string[15DoToPosts :string[15DuToPosts :string[15DnToPosts :string[15DtToPosts :string[15D[1C[1C[1C[1C[1C[1C[1C[1C[1Cc:string:string [8Da:stringc:stringc:stringo:stringu:stringn:stringt:string[?1l>
+krails\[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20150728133804_add_account_to_posts.rb
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[22:38:05]
+[1m[31m$ [00m[K[?1h=rrails g migration AddNameToUsers name:string[?1l>
+krails\[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20150728133829_add_name_to_users.rb
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[22:38:30]
+[1m[31m$ [00m[K[?1h=rails g migration AddNameToUsers name:string[23DAccountToPosts account:string[29DPrivate[8Cprivate:boolean[30DR[3P[11Crate:integer      [45Dssh www.slpylabox.info                       [23D[22Dgit push -u origin master[21Dremote add origin https://github.com/lambd433/nuitter.git[57Dcommit -m 'initial'                                      [38D[19Dadd .              [14Dinit [8Dcd      cp ~/Downloads/bootstrap-tagsinput/bootstrap-tagsinput.css vendor/assets/stylesheets[KM/Users/ysk/Downloads[11P[20C/bootstrap-tagsinput-angular.js /Users/ysk/Downloads/bootstrap-tagsinput/bootstrap-tagsinput-angular.min.js /Users/ysk/Downloads/bootstrap-tagsinput/bootstrap-tagsinput.js /Users/ysk/Downloads/bootstrap-tagsinput/bootstrap-tagsinput.min.js vendor/assets/javascripts[K[4A[12Dcd ../[K[1B[K[1B[K[1B[K[1B[K[4A[8C..//[10Drails server[10Dke db:migrate[13Dils server   [12Dcd ../..//      cp /Users/ysk/Downloads/bootstrap-tagsinput/bootstrap-tagsinput-angular.js /Users/ysk/Downloads/bootstrap-tagsinput/bootstrap-tagsinput-angular.min.js /Users/ysk/Downloads/bootstrap-tagsinput/bootstrap-tagsinput.js /Users/ysk/Downloads/bootstrap-tagsinput/bootstrap-tagsinput.min.js vendor/assets/javascripts[K[4A[9D~[9P[50C.css vendor/assets/stylesheets[K[1B[K[1B[K[1B[KMMM[12CM[10Dcd[K[1B[KM[4Cgit initadd .ra [10D          [10Drrails g migration add_index_to_users_emi ail[?1l>[1Bkrails\[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20150728134915_add_index_to_users_email.rb
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[22:49:16]
+[1m[31m$ [00m[K[?1h=rails g migration add_index_to_users_email[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C     name[?1l>
+krails\[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20150728134928_add_index_to_users_name.rb
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[22:49:28]
+[1m[31m$ [00m[K[?1h=ddbd  rrake db:migrate[?1l>
+kdb:migrate\== 20150728131857 AddRateToPosts: migrating ===================================
+-- add_column(:posts, :rate, :integer)
+   -> 0.0022s
+== 20150728131857 AddRateToPosts: migrated (0.0023s) ==========================
+
+== 20150728132056 AddPrivateToPosts: migrating ================================
+-- add_column(:posts, :private, :boolean)
+   -> 0.0009s
+== 20150728132056 AddPrivateToPosts: migrated (0.0010s) =======================
+
+== 20150728133804 AddAccountToPosts: migrating ================================
+-- add_column(:posts, :account, :string)
+   -> 0.0008s
+== 20150728133804 AddAccountToPosts: migrated (0.0009s) =======================
+
+== 20150728133829 AddNameToUsers: migrating ===================================
+-- add_column(:users, :name, :string)
+   -> 0.0009s
+== 20150728133829 AddNameToUsers: migrated (0.0010s) ==========================
+
+== 20150728134915 AddIndexToUsersEmail: migrating =============================
+-- add_index(:users, :email, {:unique=>true})
+rake aborted!
+StandardError: An error has occurred, this and all later migrations canceled:
+
+Index name 'index_users_on_email' on table 'users' already exists/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/abstract/schema_statements.rb:898:in `add_index_options'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/abstract/schema_statements.rb:542:in `add_index'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:662:in `block in method_missing'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:632:in `block in say_with_time'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:632:in `say_with_time'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:652:in `method_missing'
+/Users/ysk/Dropbox/work/nuitter/db/migrate/20150728134915_add_index_to_users_email.rb:3:in `change'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:606:in `exec_migration'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:590:in `block (2 levels) in migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:589:in `block in migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:292:in `with_connection'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:588:in `migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:765:in `migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:995:in `block in execute_migration_in_transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:1041:in `block in ddl_transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/abstract/transaction.rb:188:in `within_new_transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/transactions.rb:220:in `transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:1041:in `ddl_transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:994:in `execute_migration_in_transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:956:in `block in migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:952:in `each'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:952:in `migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:820:in `up'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:798:in `migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/tasks/database_tasks.rb:137:in `migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/railties/databases.rake:44:in `block (2 levels) in <top (required)>'
+ArgumentError: Index name 'index_users_on_email' on table 'users' already exists
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/abstract/schema_statements.rb:898:in `add_index_options'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/abstract/schema_statements.rb:542:in `add_index'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:662:in `block in method_missing'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:632:in `block in say_with_time'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:632:in `say_with_time'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:652:in `method_missing'
+/Users/ysk/Dropbox/work/nuitter/db/migrate/20150728134915_add_index_to_users_email.rb:3:in `change'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:606:in `exec_migration'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:590:in `block (2 levels) in migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:589:in `block in migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:292:in `with_connection'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:588:in `migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:765:in `migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:995:in `block in execute_migration_in_transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:1041:in `block in ddl_transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/abstract/transaction.rb:188:in `within_new_transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/transactions.rb:220:in `transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:1041:in `ddl_transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:994:in `execute_migration_in_transaction'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:956:in `block in migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:952:in `each'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:952:in `migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:820:in `up'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:798:in `migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/tasks/database_tasks.rb:137:in `migrate'
+/Users/ysk/Dropbox/work/nuitter/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.0/lib/active_record/railties/databases.rake:44:in `block (2 levels) in <top (required)>'
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[22:51:43]
+[1m[31m$ [00m[K[?1h=rake db:migrate[?1l>
+kdb:migrate\== 20150728134915 AddIndexToUsersEmail: migrating =============================
+== 20150728134915 AddIndexToUsersEmail: migrated (0.0000s) ====================
+
+== 20150728134928 AddIndexToUsersName: migrating ==============================
+-- add_index(:users, :name, {:unique=>true})
+   -> 0.0039s
+== 20150728134928 AddIndexToUsersName: migrated (0.0040s) =====================
+
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[22:53:11]
+[1m[31m$ [00m[K[?1h=kkdir  k  mmkdir app[1m/[0m[0m/devi   [11D[1C[1C[1C[1C[1C- app/d app/d [1C app/d- app/dp app/d[6Cevise/registrations. /new.html.erb[?1l>
+kmkdir\[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[22:55:28]
+[1m[31m$ [00m[K[?1h=mkdir -p app/devise/registrations/new.html.erb[46D                                              [46Drrm -rf app[1m/[0m[0m/devise[1m/[0m[0m/registrations[1m/[0m[0m/new.html.erb[1m/[0m[0m [?1l>
+krm\[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[22:55:39]
+[1m[31m$ [00m[K[?1h=rm -rf app/devise/registrations/new.html.erb[44Dmkdir -p app/devise/registrations/new.html.erb             [?1l>
+kmkdir\[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[22:55:44]
+[1m[31m$ [00m[K[?1h=rrm app[1m/[0m[0m/devise[1m/[0m[0m/registrations[1m/[0m[0m [28D[1C[1C[1C-app/devise/registrations[24Drapp/devise/registrations[24D app/devise/registrations[24D[P[24C [25Dfapp/devise/registrations[24D app/devise/registrations[24D[?1l>
+krm\[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[22:55:56]
+[1m[31m$ [00m[K[?1h=rm -rf app/devise/registrations             [?1l>
+krm\[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[22:55:59]
+[1m[31m$ [00m[K[?1h=rm -rf app/devise/registrations[31Dmkdir -p app/devise/registrations[33D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1Cvdevise/registrations[20Didevise/registrations[20Dedevise/registrations[20Dwdevise/registrations[20Dsdevise/registrations[20D/devise/registrations[20D[?1l>
+kmkdir\[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[22:56:13]
+[1m[31m$ [00m[K[?1h=lls [?1l>
+kls\Gemfile       README.rdoc  [0m[00;44mapp[0m  [00;44mconfig[0m     [00;44mdb[0m   [00;44mlog[0m     [00;44mtest[0m  typescript
+Gemfile.lock  Rakefile     [00;44mbin[0m  config.ru  [00;44mlib[0m  [00;44mpublic[0m  [00;44mtmp[0m   [00;44mvendor[0m
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[22:56:17]
+[1m[31m$ [00m[K[?1h=lls ve endor[1m/[0m[0m/
+[J[1;31massets[0m/  [J[1;31mbundle[0m/[JM[0m[23m[24m[2Cls vendor/[Kassets[1m/[0m[0m/
+[J[J[1;31mjavascripts[0m/  [J[1;31mstylesheets[0m/[JM[0m[23m[24m[2Cls vendor/assets/[K       
+[J[J[1;31massets[0m/  [J[1;31mbundle[0m/[JM[0m[23m[24m[2Cls vendor/[K       lib[1m/[0m[0m/
+[J[J[1;31massets[0m/  [J[1;31mtasks[0m/ [JM[0m[23m[24m[2Cls lib/[K    public[1m/[0m[0m/
+[J[J[0m404.html     [J422.html     [J500.html     [Jfavicon.ico  [Jrobots.txt [JM[0m[23m[24m[2Cls public/[K       
+[J[0mGemfile       Rakefile  [1;31mconfig[0m/    [1;31mlib[0m/     [1;31mtest[0m/       [1;31mvendor[0m/
+Gemfile.lock  [1;31mapp[0m/      config.ru  [1;31mlog[0m/     [1;31mtmp[0m/               
+[JREADME.rdoc   [J[1;31mbin[0m/      [J[1;31mdb[0m/        [J[1;31mpublic[0m/  [Jtypescript  [J       MMM[0m[23m[24m[2Cls[K[1Ctm  vendor[1m/[0m[0m/
+[J[J[1;31massets[0m/  [J[1;31mbundle[0m/[JM[0m[23m[24m[2Cls vendor/[Kbundle[1m/[0m[0m/ruby[1m/[0m[0m/2.3.0[1m/[0m[0m/
+[J[J[1;31mbin[0m/  [J[1;31mbuild_info[0m/  [J[1;31mcache[0m/  [J[1;31mdoc[0m/  [J[1;31mextensions[0m/  [J[1;31mgems[0m/  [J[1;31mspecifications[0m/[JM[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/[Kgems[1m/[0m[0m/
+[J[1;31mactionmailer-4.2.0[0m/                [1;31mmini_portile-0.6.2[0m/              
+[1;31mactionpack-4.2.0[0m/                  [1;31mminitest-5.7.0[0m/                  
+[1;31mactionview-4.2.0[0m/                  [1;31mmulti_json-1.11.2[0m/               
+[1;31mactivejob-4.2.0[0m/                   [1;31mnested_form-0.3.2[0m/               
+[1;31mactivemodel-4.2.0[0m/                 [1;31mnokogiri-1.6.6.2[0m/                
+[1;31mactiverecord-4.2.0[0m/                [1;31morm_adapter-0.5.0[0m/               
+[1;31mactivesupport-4.2.0[0m/               [1;31mrack-1.6.4[0m/                      
+[1;31macts-as-taggable-on-3.5.0[0m/         [1;31mrack-pjax-0.8.0[0m/                 
+[1;31maddressable-2.3.8[0m/                 [1;31mrack-test-0.6.3[0m/                 
+[1;31marel-6.0.2[0m/                        [1;31mrails-4.2.0[0m/                     
+[1;31mbcrypt-3.1.10[0m/                     [1;31mrails-deprecated_sanitizer-1.0.3[0m/
+[1;31mbinding_of_caller-0.7.2[0m/           [1;31mrails-dom-testing-1.0.6[0m/         
+[1;31mbuilder-3.2.2[0m/                     [1;31mrails-html-sanitizer-1.0.2[0m/      
+[1;31mbyebug-5.0.0[0m/                      [1;31mrails_admin-0.6.8[0m/               
+[1;31mcoffee-rails-4.1.0[0m/                [1;31mrailties-4.2.0[0m/                  
+[1;31mcoffee-script-2.4.1[0m/               [1;31mremotipart-1.2.1[0m/                
+[1;31mcoffee-script-source-1.9.1.1[0m/      [1;31mresponders-2.1.0[0m/                
+[1;31mcolumnize-0.9.0[0m/                   [1;31msafe_yaml-1.0.4[0m/                 
+[1;31mdebug_inspector-0.0.2[0m/             [1;31msass-3.4.16[0m/                     
+[1;31mdevise-3.5.1[0m/                      [1;31msass-rails-5.0.3[0m/                
+[1;31merubis-2.7.0[0m/                      [1;31msdoc-0.4.1[0m/                      
+[1;31mexecjs-2.5.2[0m/                      [1;31mspring-1.3.6[0m/                    
+[1;31mfont-awesome-rails-4.3.0.0[0m/        [1;31msprockets-3.2.0[0m/                 
+[1;31mglobalid-0.3.5[0m/                    [1;31msprockets-rails-2.3.2[0m/           
+[1;31mhaml-4.0.6[0m/                        [1;31msqlite3-1.3.10[0m/                  
+[1;31mi18n-0.7.0[0m/                        [1;31mthor-0.19.1[0m/                     
+[1;31mjbuilder-2.3.1[0m/                    [1;31mthread_safe-0.3.5[0m/               
+[1;31mjquery-rails-4.0.4[0m/                [1;31mtilt-1.4.1[0m/                      
+[1;31mjquery-ui-rails-5.0.5[0m/             [1;31mturbolinks-2.5.3[0m/                
+[1;31mjson-1.8.3[0m/                        [1;31mtzinfo-1.2.2[0m/                    
+[1;31mkaminari-0.16.3[0m/                   [1;31muglifier-2.7.1[0m/                  
+[1;31mloofah-2.0.2[0m/                      [1;31mwarden-1.2.3[0m/                    
+[1;31mmail-2.6.3[0m/                        [1;31mweb-console-2.2.1[0m/               
+[J[1;31mmime-types-2.6.1[0m/                  [J                                 [34A[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/[Kq de
+[J[J[1;31mdebug_inspector-0.0.2[0m/  [J[1;31mdevise-3.5.1[0m/         [JM[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/de[Kbug_inspector-0.0.2[1m/[0m
+[J[7mdebug_inspector-0.0.2/[0m  [J[1;31mdevise-3.5.1[0m/         [JM[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2[1m/[0m[K
+[7mdebug_inspector-0.0.2/[0m  [7mdebug_inspector-0.0.2/[0m  M[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2[1m/[0m[K[20Dvise-3.5.1[1m/[0m        [0m [9D
+[24C[7mdevise-3.5.1/         [0m[1;31mdebug_inspector-0.0.2[0m/  M[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/devise-3.5.1[1m/[0m[K
+[JM[48C[0m/
+[J[0mCHANGELOG.md     Gemfile.lock  Rakefile  devise.gemspec  [1;31mlib[0m/   
+CONTRIBUTING.md  MIT-LICENSE   [1;31mapp[0m/      devise.png      [1;31mscript[0m/
+[JGemfile          [JREADME.md     [J[1;31mconfig[0m/   [J[1;31mgemfiles[0m/       [J[1;31mtest[0m/  [JMMM[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/devise-3.5.1/[Kapp[1m/[0m[0m/
+[J[J[1;31mcontrollers[0m/  [J[1;31mhelpers[0m/      [J[1;31mmailers[0m/      [J[1;31mviews[0m/      [JM[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/devise-3.5.1/app/[Kvu
+[JM[54C iews[1m/[0m[0m/devise[1m/[0m[0m/
+[J[1;31mconfirmations[0m/  [1;31mpasswords[0m/      [1;31msessions[0m/       [1;31munlocks[0m/      
+[J[1;31mmailer[0m/         [J[1;31mregistrations[0m/  [J[1;31mshared[0m/         [J              MM[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/devise-3.5.1/app/views/devise/[Kconfirmations[1m/[0m[K
+[7mconfirmations/[0m  [1;31mpasswords[0m/      [1;31msessions[0m/       [1;31munlocks[0m/      [K
+[J[1;31mmailer[0m/         [J[1;31mregistrations[0m/  [J[1;31mshared[0m/         [J              MMM[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/devise-3.5.1/app/views/devise/confirmations[1m/[0m[K
+[7mconfirmations/[0m  [7mconfirmations/[0m  MM[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/devise-3.5.1/app/views/devise/confirmations[1m/[0m[KM[60Cmailer[1m/[0m[K[1B[KM[72C[1B[J[1;31mconfirmations[0m/  [J[1;31mpasswords[0m/      [J[1;31msessions[0m/       [J[1;31munlocks[0m/      [J[K
+[7mmailer/       [0m  [J[1;31mregistrations[0m/  [J[1;31mshared[0m/         [J              MM[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/devise-3.5.1/app/views/devise/mailer[1m/[0m[Kpasswo[0mrds[1m/[0m[K
+[1;31mconfirmations[0m/  [7mpasswords/    [0m  [1;31msessions[0m/       [1;31munlocks[0m/      [K
+[J[1;31mmailer[0m/         [J[1;31mregistrations[0m/  [J[1;31mshared[0m/         [J              MMM[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/devise-3.5.1/app/views/devise/passwords[1m/[0m[KM[64Cregistrations[1m/[0m
+[16C[1;31mpasswords[0m/      [1B[16C[7mregistrations/[0m  MMM[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/devise-3.5.1/app/views/devise/registrations[1m/[0m[K
+[JM[5C[0m/
+[J[J[0medit.html.erb  [Jnew.html.erb [JMM[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/devise-3.5.1/app/views/devise/registrations/[Kedit.html.erb
+[J[7medit.html.erb[0m  [Jnew.html.erb [JMM[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/devise-3.5.1/app/views/devise/registrations/edit.html.erb[K
+[7medit.html.erb[0m  [7medit.html.erb[0m  MM[0m[23m[24m[2Cls vendor/bundle/ruby/2.3.0/gems/devise-3.5.1/app/views/devise/registrations/edit.html.erb[K
+[JM[18C[1m [0m[0m M[17D[1C[1C[1C[P[69Cio[P[16C M[14Dl[P[70Con[P[15C M[14D[P[71Cns[P[14C M[14Dvvendor/bundle/ruby/2.3.0/gems/devise-3.5.1/app/views/devise/registrations/edit.html.erbM[13Dvivendor/bundle/ruby/2.3.0/gems/devise-3.5.1/app/views/devise/registrations/edit.html.erbM[13Dmvendor/bundle/ruby/2.3.0/gems/devise-3.5.1/app/views/devise/registrations/edit.html.erbM[13D vendor/bundle/ruby/2.3.0/gems/devise-3.5.1/app/views/devise/registrations/edit.html.erbM[13D[?1l>[1B
+[Jkvim\[?1049h[?1h=[1;35r[34l[34h[?25h[23m[24m[0m[H[J[?25l[35;1H<y/2.3.0/gems/devise-3.5.1/app/views/devise/registrations/edit.html.erb"<ms/devise-3.5.1/app/views/devise/registrations/edit.html.erb" 39L, 1290C[1;1H[1m[36m<[0m[1m[33mh2[0m[1m[36m>[0m[1m[35mEdit [0m[1m[34m<%=[0m resource_name.to_s.humanize [1m[34m%>[0m[1m[36m</[0m[1m[33mh2[0m[1m[36m>[0m
+
+[1m[34m<%=[0m form_for(resource, [1m[35mas[0m: resource_name, [1m[35murl[0m: registration_path(resource__[4;1Hname), [1m[35mhtml[0m: { [1m[35mmethod[0m: [1m[35m:put[0m }) [1m[33mdo[0m |[1m[36mf[0m| [1m[34m%>[0m
+  [1m[34m<%=[0m devise_error_messages! [1m[34m%>[0m
+
+  [1m[36m<[0m[1m[33mdiv[0m[1m[36m [0m[1m[32mclass[0m[1m[36m=[0m[1m[35m"field"[0m[1m[36m>[0m
+    [1m[34m<%=[0m f.label [1m[35m:email[0m [1m[34m%>[0m[1m[36m<[0m[1m[33mbr[0m[1m[36m />[0m
+    [1m[34m<%=[0m f.email_field [1m[35m:email[0m, [1m[35mautofocus[0m: [1m[35mtrue[0m [1m[34m%>[0m
+  [1m[36m</[0m[1m[33mdiv[0m[1m[36m>[0m
+
+  [1m[34m<%[0m [1m[33mif[0m devise_mapping.confirmable? && resource.pending_reconfirmation? [1m[34m%>[0m[13;4H [1m[36m<[0m[1m[33mdiv[0m[1m[36m>[0mCurrently waiting confirmation for: [1m[34m<%=[0m resource.unconfirmed_emaii[14;1Hl [1m[34m%>[0m[1m[36m</[0m[1m[33mdiv[0m[1m[36m>[0m
+  [1m[34m<%[0m [1m[33mend[0m [1m[34m%>[0m
+
+  [1m[36m<[0m[1m[33mdiv[0m[1m[36m [0m[1m[32mclass[0m[1m[36m=[0m[1m[35m"field"[0m[1m[36m>[0m
+    [1m[34m<%=[0m f.label [1m[35m:password[0m [1m[34m%>[0m [1m[36m<[0m[1m[33mi[0m[1m[36m>[0m[7m(leave blank if you don't want to change ii[19;1Ht)[0m[1m[36m</[0m[1m[33mi[0m[1m[36m><[0m[1m[33mbr[0m[1m[36m />[0m
+    [1m[34m<%=[0m f.password_field [1m[35m:password[0m, [1m[35mautocomplete[0m: [1m[31m"[0m[1m[35moff[0m[1m[31m"[0m [1m[34m%>[0m
+  [1m[36m</[0m[1m[33mdiv[0m[1m[36m>[0m
+
+  [1m[36m<[0m[1m[33mdiv[0m[1m[36m [0m[1m[32mclass[0m[1m[36m=[0m[1m[35m"field"[0m[1m[36m>[0m
+    [1m[34m<%=[0m f.label [1m[35m:password_confirmation[0m [1m[34m%>[0m[1m[36m<[0m[1m[33mbr[0m[1m[36m />[0m
+    [1m[34m<%=[0m f.password_field [1m[35m:password_confirmation[0m, [1m[35mautocomplete[0m: [1m[31m"[0m[1m[35moff[0m[1m[31m"[0m [1m[34m%>[0m
+  [1m[36m</[0m[1m[33mdiv[0m[1m[36m>[0m
+
+  [1m[36m<[0m[1m[33mdiv[0m[1m[36m [0m[1m[32mclass[0m[1m[36m=[0m[1m[35m"field"[0m[1m[36m>[0m
+    [1m[34m<%=[0m f.label [1m[35m:current_password[0m [1m[34m%>[0m [1m[36m<[0m[1m[33mi[0m[1m[36m>[0m[7m(we need your current password to  [30;1Hconfirm your changes)[0m[1m[36m</[0m[1m[33mi[0m[1m[36m><[0m[1m[33mbr[0m[1m[36m />[0m
+    [1m[34m<%=[0m f.password_field [1m[35m:current_password[0m, [1m[35mautocomplete[0m: [1m[31m"[0m[1m[35moff[0m[1m[31m"[0m [1m[34m%>[0m
+  [1m[36m</[0m[1m[33mdiv[0m[1m[36m>[0m
+
+  [1m[36m<[0m[1m[33mdiv[0m[1m[36m [0m[1m[32mclass[0m[1m[36m=[0m[1m[35m"actions"[0m[1m[36m>[1;1H[34h[?25h[?25l[23m[24m[0m[H[J[2;2H [1m[36m<[0m[1m[33mdiv[0m[1m[36m [0m[1m[32mclass[0m[1m[36m=[0m[1m[35m"actions"[0m[1m[36m>[0m
+    [1m[34m<%=[0m f.submit [1m[31m"[0m[1m[35mUpdate[0m[1m[31m"[0m [1m[34m%>[0m
+  [1m[36m</[0m[1m[33mdiv[0m[1m[36m>[0m
+[1m[34m<%[0m [1m[33mend[0m [1m[34m%>[0m
+
+[1m[36m<[0m[1m[33mh3[0m[1m[36m>[0m[1m[35mCancel my account[0m[1m[36m</[0m[1m[33mh3[0m[1m[36m>
+
+<[0m[1m[33mp[0m[1m[36m>[0mUnhappy? [1m[34m<%=[0m button_to [1m[31m"[0m[1m[35mCancel my account[0m[1m[31m"[0m, registration_path(resource__[10;1Hname), [1m[36mdata[0m: { [1m[35mconfirm[0m: [1m[31m"[0m[1m[35mAre you sure?[0m[1m[31m"[0m }, [1m[35mmethod[0m: [1m[35m:delete[0m [1m[34m%>[0m[1m[36m</[0m[1m[33mp[0m[1m[36m>[0m
+
+[1m[34m<%=[0m link_to [1m[31m"[0m[1m[35mBack[0m[1m[31m"[0m, [1m[35m:back[0m [1m[34m%>
+~                                                                         [14;1H~                                                                         [15;1H~                                                                         [16;1H~                                                                         [17;1H~                                                                         [18;1H~                                                                         [19;1H~                                                                         [20;1H~                                                                         [21;1H~                                                                         [22;1H~                                                                         [23;1H~                                                                         [24;1H~                                                                         [25;1H~                                                                         [26;1H~                                                                         [27;1H~                                                                         [28;1H~                                                                         [29;1H~                                                                         [30;1H~                                                                         [31;1H~                                                                         [32;1H~                                                                         [33;1H~                                                                         [34;1H~                                                                         [1;1H[34h[?25h[?25l[23m[24m[0m[H[J[1;1H[1m[36m<[0m[1m[33mh2[0m[1m[36m>[0m[1m[35mEdit [0m[1m[34m<%=[0m resource_name.to_s.humanize [1m[34m%>[0m[1m[36m</[0m[1m[33mh2[0m[1m[36m>[0m
+
+[1m[34m<%=[0m form_for(resource, [1m[35mas[0m: resource_name, [1m[35murl[0m: registration_path(resource__[4;1Hname), [1m[35mhtml[0m: { [1m[35mmethod[0m: [1m[35m:put[0m }) [1m[33mdo[0m |[1m[36mf[0m| [1m[34m%>[0m
+  [1m[34m<%=[0m devise_error_messages! [1m[34m%>[0m
+
+  [1m[36m<[0m[1m[33mdiv[0m[1m[36m [0m[1m[32mclass[0m[1m[36m=[0m[1m[35m"field"[0m[1m[36m>[0m
+    [1m[34m<%=[0m f.label [1m[35m:email[0m [1m[34m%>[0m[1m[36m<[0m[1m[33mbr[0m[1m[36m />[0m
+    [1m[34m<%=[0m f.email_field [1m[35m:email[0m, [1m[35mautofocus[0m: [1m[35mtrue[0m [1m[34m%>[0m
+  [1m[36m</[0m[1m[33mdiv[0m[1m[36m>[0m
+
+  [1m[34m<%[0m [1m[33mif[0m devise_mapping.confirmable? && resource.pending_reconfirmation? [1m[34m%>[0m[13;4H [1m[36m<[0m[1m[33mdiv[0m[1m[36m>[0mCurrently waiting confirmation for: [1m[34m<%=[0m resource.unconfirmed_emaii[14;1Hl [1m[34m%>[0m[1m[36m</[0m[1m[33mdiv[0m[1m[36m>[0m
+  [1m[34m<%[0m [1m[33mend[0m [1m[34m%>[0m
+
+  [1m[36m<[0m[1m[33mdiv[0m[1m[36m [0m[1m[32mclass[0m[1m[36m=[0m[1m[35m"field"[0m[1m[36m>[0m
+    [1m[34m<%=[0m f.label [1m[35m:password[0m [1m[34m%>[0m [1m[36m<[0m[1m[33mi[0m[1m[36m>[0m[7m(leave blank if you don't want to change ii[19;1Ht)[0m[1m[36m</[0m[1m[33mi[0m[1m[36m><[0m[1m[33mbr[0m[1m[36m />[0m
+    [1m[34m<%=[0m f.password_field [1m[35m:password[0m, [1m[35mautocomplete[0m: [1m[31m"[0m[1m[35moff[0m[1m[31m"[0m [1m[34m%>[0m
+  [1m[36m</[0m[1m[33mdiv[0m[1m[36m>[0m
+
+  [1m[36m<[0m[1m[33mdiv[0m[1m[36m [0m[1m[32mclass[0m[1m[36m=[0m[1m[35m"field"[0m[1m[36m>[0m
+    [1m[34m<%=[0m f.label [1m[35m:password_confirmation[0m [1m[34m%>[0m[1m[36m<[0m[1m[33mbr[0m[1m[36m />[0m
+    [1m[34m<%=[0m f.password_field [1m[35m:password_confirmation[0m, [1m[35mautocomplete[0m: [1m[31m"[0m[1m[35moff[0m[1m[31m"[0m [1m[34m%>[0m
+  [1m[36m</[0m[1m[33mdiv[0m[1m[36m>[0m
+
+  [1m[36m<[0m[1m[33mdiv[0m[1m[36m [0m[1m[32mclass[0m[1m[36m=[0m[1m[35m"field"[0m[1m[36m>[0m
+    [1m[34m<%=[0m f.label [1m[35m:current_password[0m [1m[34m%>[0m [1m[36m<[0m[1m[33mi[0m[1m[36m>[0m[7m(we need your current password to  [30;1Hconfirm your changes)[0m[1m[36m</[0m[1m[33mi[0m[1m[36m><[0m[1m[33mbr[0m[1m[36m />[0m
+    [1m[34m<%=[0m f.password_field [1m[35m:current_password[0m, [1m[35mautocomplete[0m: [1m[31m"[0m[1m[35moff[0m[1m[31m"[0m [1m[34m%>[0m
+  [1m[36m</[0m[1m[33mdiv[0m[1m[36m>[0m
+
+  [1m[36m<[0m[1m[33mdiv[0m[1m[36m [0m[1m[32mclass[0m[1m[36m=[0m[1m[35m"actions"[0m[1m[36m>[0m  [34h[?25h[?25l[34h[?25h[?25l
+:[34h[?25hq[?25l[35;1H[K[35;1H[?1l>[34h[?25h[?1049l[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:03:59]
+[1m[31m$ [00m[K[?1h=rrails g devise:views[?1l>
+krails\[1m[32m      invoke[0m  Devise::Generators::SharedViewsGenerator
+[1m[32m      create[0m    app/views/devise/shared
+[1m[32m      create[0m    app/views/devise/shared/_links.html.erb
+[1m[37m      invoke[0m  form_for
+[1m[32m      create[0m    app/views/devise/confirmations
+[1m[32m      create[0m    app/views/devise/confirmations/new.html.erb
+[1m[32m      create[0m    app/views/devise/passwords
+[1m[32m      create[0m    app/views/devise/passwords/edit.html.erb
+[1m[32m      create[0m    app/views/devise/passwords/new.html.erb
+[1m[34m       exist[0m    app/views/devise/registrations
+[1m[32m      create[0m    app/views/devise/registrations/edit.html.erb
+[1m[31m    conflict[0m    app/views/devise/registrations/new.html.erb
+  Overwrite /Users/ysk/Dropbox/work/nuitter/app/views/devise/registrations//new.html.erb? (enter "h" for help) [Ynaqdh] u[Kuy[K[Ky
+[1m[33m       force[0m    app/views/devise/registrations/new.html.erb
+[1m[32m      create[0m    app/views/devise/sessions
+[1m[32m      create[0m    app/views/devise/sessions/new.html.erb
+[1m[32m      create[0m    app/views/devise/unlocks
+[1m[32m      create[0m    app/views/devise/unlocks/new.html.erb
+[1m[37m      invoke[0m  erb
+[1m[32m      create[0m    app/views/devise/mailer
+[1m[32m      create[0m    app/views/devise/mailer/confirmation_instructions.html.erb
+[1m[32m      create[0m    app/views/devise/mailer/reset_password_instructions.html.erb
+[1m[32m      create[0m    app/views/devise/mailer/unlock_instructions.html.erb
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:04:20]
+[1m[31m$ [00m[K[?1h=rails g devise:views[20Dvim vendor/bundle/ruby/2.3.0/gems/devise-3.5.1/app/views/devise/registrations/edit.html.erb[KM[17Dls[K[1B[KM[5Cmkdir -p app/views/devise/registrations[39Drm -rf app/de[2Cse/                     [21Dregistrations[31Dmkdir -p app/devise/registrations[33Drm -rf[P[P[25C/new.html.erb[44Dmkdir -p app/devise/registrations/new.html.erb[46Drake db:migrate                               [31D[13Dils g [6Cion add_index_to_users_nameemailname [39Dke db:[6Ce                          [26D[13Dils g [6Cion add_index_to_users_nameemail[36Dserver                              [30Dg migration AddNameToUsers name:string[38Dserver                                [32Dg migration add_index_to_users_emailname [39Dke db:[6Ce                          [26D[15Dmkdir -p app/devise/registrations/new.html.erb[46Drake db:migrate                               [31D[13Dils g [6Cion add_index_to_users_nameemail[36Dserver                              [30Dg migration AddNameToUsers name:string[23DAccountToPosts account:string[29DNameToUsers name:string      [38Dserver                                [32Dg migration AddNameToUsers name:string[23DAccountToPosts account:string[29DPrivate[8Cprivate:boolean[30DR[3P[11Crate:integer      [24DPrivateToPosts private:boolean[30DR[3P[11Crate:integer      [39Dserver                                 [33Dg migration AddRateToPosts rate:integer[45D                                             [45D[?1l>[1B[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:21:37]
+[1m[31m$ [00m[K[?1h=ccp ~/Downloads[1m/[0m[0m/r
+[0mReadMe.txt   raty-2.7.0.zip  resume.pdf          rirekisho_sofujo01.docx
+[J[1;31mraty-2.7.0[0m/  [Jreport.pdf      [Jreversi-rules4.png  [J[1;31mrogue3.6.3-src[0m/      [JMM[0m[23m[24m[2Ccp ~/Downloads/r[Ka
+[JM[19Cty-2.7.0
+[J[J[1;31mraty-2.7.0[0m/     [Jraty-2.7.0.zip[JM[0m[23m[24m[2Ccp ~/Downloads/raty-2.7.0[K/
+[J[J[1;32mREADME.md[0m*  [J[1;32mchangelog.md[0m*  [J[1;31mdemo[0m/  [J[1;31mlib[0m/  [J[1;32mpackage.json[0m*  [J[1;31mspec[0m/  [J[1;31mvendor[0m/[JM[0m[23m[24m[2Ccp ~/Downloads/raty-2.7.0/[Kvendor[1m/[0m[0m/jquery.js[1m [0m[0m vendor[1m/[0m[0m/
+[J[J[1;31massets[0m/  [J[1;31mbundle[0m/[JM[0m[23m[24m[2Ccp ~/Downloads/raty-2.7.0/vendor/jquery.js vendor/[Kbu  sa  assets[1m/[0m[0m/
+[J[J[1;31mjavascripts[0m/  [J[1;31mstylesheets[0m/[JM[0m[23m[24m[2Ccp ~/Downloads/raty-2.7.0/vendor/jquery.js vendor/assets/[Kjavascripts[1m/[0m
+[JM[71C[0m/bootstrap-tagsinput[K[K             t [KM[73C[K[1B[KM[73C   [1m/[0m[0m [?1l>[1B[Jkcp\[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:22:14]
+[1m[31m$ [00m[K[?1h=lls l lsv~    ~/DOwownloads[1m/[0m[0m/raty-2.7.0
+[J[1;31mraty-2.7.0[0m/     [Jraty-2.7.0.zip[JM[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0[K/
+[J[J[1;32mREADME.md[0m*  [J[1;32mchangelog.md[0m*  [J[1;31mdemo[0m/  [J[1;31mlib[0m/  [J[1;32mpackage.json[0m*  [J[1;31mspec[0m/  [J[1;31mvendor[0m/[JM[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/[Kdemo[1m/[0m[0m/
+[J[J[1;32mfavicon.ico[0m*  [J[1;31mfonts[0m/  [J[1;31mimages[0m/  [J[1;32mindex.html[0m*  [J[1;31mjavascripts[0m/  [J[1;31mstylesheets[0m/[JM[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/demo/[Kimages[1m/[0m[0m/
+[J[1;32m0.png[0m*  [1;32m4.png[0m*                  [1;32mcancel-off.png[0m*  [1;32mstar-half-mono.png[0m*
+[1;32m1.png[0m*  [1;32m5.png[0m*                  [1;32mcancel-on.png[0m*   [1;32mstar-half.png[0m*     
+[1;32m2.png[0m*  [1;32mcancel-custom-off.png[0m*  [1;32moff.png[0m*         [1;32mstar-off.png[0m*      
+[J[1;32m3.png[0m*  [J[1;32mcancel-custom-on.png[0m*   [J[1;32mon.png[0m*          [J[1;32mstar-on.png[0m*       [J[4A[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/demo/images/[K vendor[1m/[0m[0m/assets[1m/[0m[0m/im
+[JM[57C  [53D[P[52C [53D[P[51C [52Dc ~/Downloads/raty-2.7.0/demo/images/ vendor/assets/[51Dcp ~/Downloads/raty-2.7.0/demo/images/ vendor/assets/[51D[1C ~/Downloads/raty-2.7.0/demo/images/ vendor/assets/[51D- ~/Downloads/raty-2.7.0/demo/images/ vendor/assets/[51Dr ~/Downloads/raty-2.7.0/demo/images/ vendor/assets/[51D[?1l>
+[Jkcp\[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:23:52]
+[1m[31m$ [00m[K[?1h=lls vendor[1m/[0m[0m/ja  assets[1m/[0m[0m/javascripts[1m/[0m[0m [?1l>
+kls\[0m[01;32mbootstrap-tagsinput-angular.js[0m      [01;32mbootstrap-tagsinput.min.js[0m
+[01;32mbootstrap-tagsinput-angular.min.js[0m  [01;32mbootstrap-tagsinput.min.js.map[0m
+[01;32mbootstrap-tagsinput.js[0m              [01;32mjquery.js[0m
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:29:53]
+[1m[31m$ [00m[K[?1h=kksk  lls ~/Downloads[1m/[0m[0m/raty-2.7.0/
+[J[1;32mREADME.md[0m*  [J[1;32mchangelog.md[0m*  [J[1;31mdemo[0m/  [J[1;31mlib[0m/  [J[1;32mpackage.json[0m*  [J[1;31mspec[0m/  [J[1;31mvendor[0m/[JM[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/[KREADME.md
+[J[7mREADME.md*[0m  [J[1;32mchangelog.md[0m*  [J[1;31mdemo[0m/  [J[1;31mlib[0m/  [J[1;32mpackage.json[0m*  [J[1;31mspec[0m/  [J[1;31mvendor[0m/[JM[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/README.md[K
+[7mREADME.md*[0m  [7mREADME.md*[0m  M[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/README.md[K[9Dchangelog.md
+[12C[7mchangelog.md*[0m  [1;32mREADME.md[0m*  M[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/changelog.md[K[12Ddemo[1m/[0m       
+[27C[7mdemo/[0m  [12C[1;32mchangelog.md[0m*  M[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/demo[1m/[0m[Klib[1m/[0m[0m 
+[34C[7mlib/[0m  [27C[1;31mdemo[0m/  M[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/lib[1m/[0m[Kpac[0mkage.json
+[40C[7mpackage.json*[0m  [34C[1;31mlib[0m/  M[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/package.json[K[12Dspec[1m/[0m       
+[55C[7mspec/[0m  [40C[1;32mpackage.json[0m*  M[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/spec[1m/[0m[Kvend[0mor[1m/[0m
+[62C[7mvendor/[0m[55C[1;31mspec[0m/  M[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/vendor[1m/[0m[K
+[JM[35C[0m/jquery.js[1m [0m[0m          jquery.js[1m [0m[0m                 
+[J[J[1;32mREADME.md[0m*  [J[1;32mchangelog.md[0m*  [J[1;31mdemo[0m/  [J[1;31mlib[0m/  [J[1;32mpackage.json[0m*  [J[1;31mspec[0m/  [J[1;31mvendor[0m/[JM[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/[KREADME.md
+[J[7mREADME.md*[0m  [J[1;32mchangelog.md[0m*  [J[1;31mdemo[0m/  [J[1;31mlib[0m/  [J[1;32mpackage.json[0m*  [J[1;31mspec[0m/  [J[1;31mvendor[0m/[JM[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/README.md[K
+[7mREADME.md*[0m  [7mREADME.md*[0m  M[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/README.md[K[9Dchangelog.md
+[12C[7mchangelog.md*[0m  [1;32mREADME.md[0m*  M[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/changelog.md[K[12Ddemo[1m/[0m       
+[27C[7mdemo/[0m  [12C[1;32mchangelog.md[0m*  M[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/demo[1m/[0m[Klib[1m/[0m[0m 
+[34C[7mlib/[0m  [27C[1;31mdemo[0m/  M[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/lib[1m/[0m[K
+[JM[32C[0m/
+[J[J[1;31mfonts[0m/            [J[1;31mimages[0m/           [J[1;32mjquery.raty.css[0m*  [J[1;32mjquery.raty.js[0m* [JM[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/lib/[K [1m/[0m[0m/ja qu
+[JM[35Cery.raty.
+[J[J[1;32mjquery.raty.css[0m*  [J[1;32mjquery.raty.js[0m* [JM[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/lib/jquery.raty.[Kjs[1m [0m[0m vendor[1m/[0m[0m/
+[J[J[1;31massets[0m/  [J[1;31mbundle[0m/[JM[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/lib/jquery.raty.js vendor/[Kassets[1m/[0m[0m/
+[J[J[1;31mimages[0m/       [J[1;31mjavascripts[0m/  [J[1;31mstylesheets[0m/[JM[0m[23m[24m[2Cls ~/Downloads/raty-2.7.0/lib/jquery.raty.js vendor/assets/[Kjavascripts[1m/[0m[0m [71D[P[69C [70D[P[68C [69Dc ~/Downloads/raty-2.7.0/lib/jquery.raty.js vendor/assets/javascripts[68Dcp ~/Downloads/raty-2.7.0/lib/jquery.raty.js vendor/assets/javascripts[68D[?1l>
+[Jkcp\[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:32:36]
+[1m[31m$ [00m[K[?1h=rrm vendor[1m/[0m[0m/assets[1m/[0m[0m/jq  javascripts[1m/[0m[0m/jquery.js[1m [0m[0m [?1l>
+krm\[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:32:47]
+[1m[31m$ [00m[K[?1h=rm vendor/assets/javascripts/jquery.js[38Dcp ~/Downloads/raty-2.7.0/lib/jquery.raty.js vendor/assets/javascripts[1C[P[26C [27D[P[26C [27Dc vendor/assets/javascripts[26Dss[1m [0m vendor/assets/javascripts [KM[48C[P[26C[K[1B[KM[73C           cs  [1B[J[1;31mimages[0m/       [J[1;31mjavascripts[0m/  [J[1;31mstylesheets[0m/[JM[0m[23m[24m[2Ccp ~/Downloads/raty-2.7.0/lib/jquery.raty.css vendor/assets/[Kstylesheets[1m/[0m [KM[73C[K[1B[KM[73C[?1l>[1B[Jkcp\[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:33:03]
+[1m[31m$ [00m[K[?1h=lls a vendor[1m/[0m[0m/i assets[1m/[0m[0m/images[1m/[0m[0m [24D                       [23Dlls app[1m/[0m[0m/
+[J[1;31massets[0m/   [J[1;31mcontrollers[0m/   [J[1;31mhelpers[0m/   [J[1;31mmailers[0m/   [J[1;31mmodels[0m/   [J[1;31mviews[0m/ [JM[0m[23m[24m[2Cls app/[Kassets[1m/[0m[0m/
+[J[J[1;31mimages[0m/       [J[1;31mjavascripts[0m/  [J[1;31mstylesheets[0m/[JM[0m[23m[24m[2Cls app/assets/[Kimages[1m/[0m
+[JM[23C[0m [21D                    [20Dmmv vendor[1m/[0m[0m/im  assets[1m/[0m[0m/images[1m/[0m[0m/
+[J[1;32m0.png[0m*  [1;32m4.png[0m*                  [1;32mcancel-off.png[0m*  [1;32mstar-half-mono.png[0m*
+[1;32m1.png[0m*  [1;32m5.png[0m*                  [1;32mcancel-on.png[0m*   [1;32mstar-half.png[0m*     
+[1;32m2.png[0m*  [1;32mcancel-custom-off.png[0m*  [1;32moff.png[0m*         [1;32mstar-off.png[0m*      
+[J[1;32m3.png[0m*  [J[1;32mcancel-custom-on.png[0m*   [J[1;32mon.png[0m*          [J[1;32mstar-on.png[0m*       [J[4A[0m[23m[24m[2Cmv vendor/assets/images/[K app[1m/[0m[0m/assets[1m/[0m[0m [?1l>
+[Jkmv\mv: cannot move ‘vendor/assets/images/’ to ‘app/assets/images’: Directory not empty
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:42:43]
+[1m[31m$ [00m[K[?1h=mv vendor/assets/images/ app/assets[35D[1C[1C[1C-vendor/assets/images/ app/assets[32Dfvendor/assets/images/ app/assets[32D vendor/assets/images/ app/assets[32D[?1l>
+kmv\mv: cannot move ‘vendor/assets/images/’ to ‘app/assets/images’: Directory not empty
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:42:57]
+[1m[31m$ [00m[K[?1h=mv -f vendor/assets/images/ app/assets[38D[1C[1C                                      [38Dmmam  mman mv[?1l>
+kman\[?1049h[?1h=[m
+MV(1)                     BSD General Commands Manual                    M[mV(1)[m
+[m
+[1mNAME[0m[m
+     [1mmv[0m -- move files[m
+[m
+[1mSYNOPSIS[0m[m
+     [1mmv[0m [[1m-f[0m | [1m-i[0m | [1m-n[0m] [[1m-v[0m] [4msource[24m [4mtarget[24m[m
+     [1mmv[0m [[1m-f[0m | [1m-i[0m | [1m-n[0m] [[1m-v[0m] [4msource[24m [4m...[24m [4mdirectory[24m[m
+[m
+[1mDESCRIPTION[0m[m
+     In its first form, the [1mmv[0m utility renames the file named by the [4msourc[24m[m[4me[24m[m
+     operand to the destination path named by the [4mtarget[24m operand.  This fo[mrm[m
+     is assumed when the last operand does not name an already existing di[mrec-[m
+     tory.[m
+[m
+     In its second form, [1mmv[0m moves each file named by a [4msource[24m operand to a[m
+     destination file in the existing directory named by the [4mdirectory[24m ope[mr-[m
+     and.  The destination path for each operand is the pathname produced [mby[m
+     the concatenation of the last operand, a slash, and the final pathnam[me[m
+     component of the named file.[m
+[m
+     The following options are available:[m
+[m
+     [1m-f[0m      Do not prompt for confirmation before overwriting the destina[mtion[m
+             path.  (The [1m-f[0m option overrides any previous [1m-i[0m or [1m-n[0m options[m:[K[K.)[m
+[m
+     [1m-i[0m      Cause [1mmv[0m to write a prompt to standard error before moving a [mfile[m
+             that would overwrite an existing file.  If the response from [mthe[m
+             standard input begins with the character `y' or `Y', the move[m is[m
+             attempted.  (The [1m-i[0m option overrides any previous [1m-f[0m or [1m-n[0m[m
+             options.)[m
+[m
+     [1m-n[0m      Do not overwrite an existing file.  (The [1m-n[0m option overrides [many[m
+             previous [1m-f[0m or [1m-i[0m options.)[m
+[m
+     [1m-v[0m      Cause [1mmv[0m to be verbose, showing files after they are moved.[m
+[m
+     It is an error for either the [4msource[24m operand or the destination path [mto[m
+     specify a directory unless both do.[m
+[m
+     If the destination path does not have a mode which permits writing, [1mm[0m[m[1mv[0m[m
+     prompts the user for confirmation as specified for the [1m-i[0m option.[m
+[m
+     As the rename(2) call does not work across file systems, [1mmv[0m uses cp(1[m)[m
+     and rm(1) to accomplish the move.  The effect is equivalent to:[m
+[m
+           rm -f destination_path && \[m
+           cp -pRP source_file destination && \[m
+           rm -rf source_file[m
+[m
+[1mDIAGNOSTICS[0m[m
+:[K[K[HM             path.  (The [1m-f[0m option overrides any previous [1m-i[0m or [1m-n[0m options[m[HMtion[m
+[HM     [1m-f[0m      Do not prompt for confirmation before overwriting the destina[m[HM[m
+[HM     The following options are available:[m
+[HM[m
+[HM     component of the named file.[m
+[HMe[m
+[HM     the concatenation of the last operand, a slash, and the final pathnam[m[HMby[m
+[HM     and.  The destination path for each operand is the pathname produced [m[HMr-[m
+[HM     destination file in the existing directory named by the [4mdirectory[24m ope[m[HM     In its second form, [1mmv[0m moves each file named by a [4msource[24m operand to a[m
+[HM[m
+[HM     tory.[m
+[HMrec-[m
+[HM     is assumed when the last operand does not name an already existing di[m[HMrm[m
+[HM     operand to the destination path named by the [4mtarget[24m operand.  This fo[m[HM[4me[24m[m
+[HM     In its first form, the [1mmv[0m utility renames the file named by the [4msourc[24m[m[HM[1mDESCRIPTION[0m[m
+[HM[m
+[HM     [1mmv[0m [[1m-f[0m | [1m-i[0m | [1m-n[0m] [[1m-v[0m] [4msource[24m [4m...[24m [4mdirectory[24m[m
+[HM     [1mmv[0m [[1m-f[0m | [1m-i[0m | [1m-n[0m] [[1m-v[0m] [4msource[24m [4mtarget[24m[m
+[HM[1mSYNOPSIS[0m[m
+[HM[m
+[HM     [1mmv[0m -- move files[m
+[HM[1mNAME[0m[m
+[HM[m
+[HMV(1)[m
+[HMMV(1)                     BSD General Commands Manual                    M[m[HM[m
+[35;1H[K:[K[K.)[m
+[m
+     [1m-i[0m      Cause [1mmv[0m to write a prompt to standard error before moving a [mfile[m
+             that would overwrite an existing file.  If the response from [mthe[m
+             standard input begins with the character `y' or `Y', the move[m is[m
+             attempted.  (The [1m-i[0m option overrides any previous [1m-f[0m or [1m-n[0m[m
+             options.)[m
+[m
+     [1m-n[0m      Do not overwrite an existing file.  (The [1m-n[0m option overrides [many[m
+             previous [1m-f[0m or [1m-i[0m options.)[m
+[m
+     [1m-v[0m      Cause [1mmv[0m to be verbose, showing files after they are moved.[m
+[m
+     It is an error for either the [4msource[24m operand or the destination path [mto[m
+     specify a directory unless both do.[m
+[m
+     If the destination path does not have a mode which permits writing, [1mm[0m[m[1mv[0m[m
+     prompts the user for confirmation as specified for the [1m-i[0m option.[m
+[m
+     As the rename(2) call does not work across file systems, [1mmv[0m uses cp(1[m)[m
+     and rm(1) to accomplish the move.  The effect is equivalent to:[m
+[m
+           rm -f destination_path && \[m
+           cp -pRP source_file destination && \[m
+           rm -rf source_file[m
+[m
+[1mDIAGNOSTICS[0m[m
+:[K[K[HM             path.  (The [1m-f[0m option overrides any previous [1m-i[0m or [1m-n[0m options[m[HMtion[m
+[HM     [1m-f[0m      Do not prompt for confirmation before overwriting the destina[m[HM[m
+[HM     The following options are available:[m
+[HM[m
+[HM     component of the named file.[m
+[HMe[m
+[HM     the concatenation of the last operand, a slash, and the final pathnam[m[HMby[m
+[HM     and.  The destination path for each operand is the pathname produced [m[HMr-[m
+[HM     destination file in the existing directory named by the [4mdirectory[24m ope[m[HM     In its second form, [1mmv[0m moves each file named by a [4msource[24m operand to a[m
+[HM[m
+[HM     tory.[m
+[HMrec-[m
+[HM     is assumed when the last operand does not name an already existing di[m[HMrm[m
+[HM     operand to the destination path named by the [4mtarget[24m operand.  This fo[m[HM[4me[24m[m
+[HM     In its first form, the [1mmv[0m utility renames the file named by the [4msourc[24m[m[HM[1mDESCRIPTION[0m[m
+[HM[m
+[HM     [1mmv[0m [[1m-f[0m | [1m-i[0m | [1m-n[0m] [[1m-v[0m] [4msource[24m [4m...[24m [4mdirectory[24m[m
+[HM     [1mmv[0m [[1m-f[0m | [1m-i[0m | [1m-n[0m] [[1m-v[0m] [4msource[24m [4mtarget[24m[m
+[HM[1mSYNOPSIS[0m[m
+[HM[m
+[HM     [1mmv[0m -- move files[m
+[HM[1mNAME[0m[m
+[HM[m
+[HMV(1)[m
+[HMMV(1)                     BSD General Commands Manual                    M[m[HM[m
+[35;1H[K:[K[K [K::[Kqq[K[?1l>[?1049l[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:43:09]
+[1m[31m$ [00m[K[?1h=man mvmv -f vendor/assets/images/ app/assets[38D[1C[1C[1C[1C[1C[?1l>
+kmv\mv: cannot move ‘vendor/assets/images/’ to ‘app/assets/images’: Directory not empty
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:43:14]
+[1m[31m$ [00m[K[?1h=mv -f vendor/assets/images/ app/assets[38D                                      [38Dmman mv[?1l>
+kman\[?1049h[?1h=[m
+MV(1)                     BSD General Commands Manual                    M[mV(1)[m
+[m
+[1mNAME[0m[m
+     [1mmv[0m -- move files[m
+[m
+[1mSYNOPSIS[0m[m
+     [1mmv[0m [[1m-f[0m | [1m-i[0m | [1m-n[0m] [[1m-v[0m] [4msource[24m [4mtarget[24m[m
+     [1mmv[0m [[1m-f[0m | [1m-i[0m | [1m-n[0m] [[1m-v[0m] [4msource[24m [4m...[24m [4mdirectory[24m[m
+[m
+[1mDESCRIPTION[0m[m
+     In its first form, the [1mmv[0m utility renames the file named by the [4msourc[24m[m[4me[24m[m
+     operand to the destination path named by the [4mtarget[24m operand.  This fo[mrm[m
+     is assumed when the last operand does not name an already existing di[mrec-[m
+     tory.[m
+[m
+     In its second form, [1mmv[0m moves each file named by a [4msource[24m operand to a[m
+     destination file in the existing directory named by the [4mdirectory[24m ope[mr-[m
+     and.  The destination path for each operand is the pathname produced [mby[m
+     the concatenation of the last operand, a slash, and the final pathnam[me[m
+     component of the named file.[m
+[m
+     The following options are available:[m
+[m
+     [1m-f[0m      Do not prompt for confirmation before overwriting the destina[mtion[m
+             path.  (The [1m-f[0m option overrides any previous [1m-i[0m or [1m-n[0m options[m:[K[K.)[m
+[m
+     [1m-i[0m      Cause [1mmv[0m to write a prompt to standard error before moving a [mfile[m
+             that would overwrite an existing file.  If the response from [mthe[m
+             standard input begins with the character `y' or `Y', the move[m is[m
+             attempted.  (The [1m-i[0m option overrides any previous [1m-f[0m or [1m-n[0m[m
+             options.)[m
+[m
+     [1m-n[0m      Do not overwrite an existing file.  (The [1m-n[0m option overrides [many[m
+             previous [1m-f[0m or [1m-i[0m options.)[m
+[m
+     [1m-v[0m      Cause [1mmv[0m to be verbose, showing files after they are moved.[m
+[m
+     It is an error for either the [4msource[24m operand or the destination path [mto[m
+     specify a directory unless both do.[m
+[m
+     If the destination path does not have a mode which permits writing, [1mm[0m[m[1mv[0m[m
+     prompts the user for confirmation as specified for the [1m-i[0m option.[m
+[m
+     As the rename(2) call does not work across file systems, [1mmv[0m uses cp(1[m)[m
+     and rm(1) to accomplish the move.  The effect is equivalent to:[m
+[m
+           rm -f destination_path && \[m
+           cp -pRP source_file destination && \[m
+           rm -rf source_file[m
+[m
+[1mDIAGNOSTICS[0m[m
+:[K[K[?1l>[?1049l[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:43:23]
+[1m[31m$ [00m[K[?1h=man mvmv -f vendor/assets/images/ app/assets[38D[1C[1C[1C[1C[1C[P[33C [34Dr vendor/assets/images/ app/assets[33D[?1l>
+kmv\mv: invalid option -- 'r'
+Try 'mv --help' for more information.
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:43:26]
+[1m[31m$ [00m[K[?1h=mv -r vendor/assets/images/ app/assets[38Dman mv                                [32D[?1l>
+kman\[?1049h[?1h=[m
+MV(1)                     BSD General Commands Manual                    M[mV(1)[m
+[m
+[1mNAME[0m[m
+     [1mmv[0m -- move files[m
+[m
+[1mSYNOPSIS[0m[m
+     [1mmv[0m [[1m-f[0m | [1m-i[0m | [1m-n[0m] [[1m-v[0m] [4msource[24m [4mtarget[24m[m
+     [1mmv[0m [[1m-f[0m | [1m-i[0m | [1m-n[0m] [[1m-v[0m] [4msource[24m [4m...[24m [4mdirectory[24m[m
+[m
+[1mDESCRIPTION[0m[m
+     In its first form, the [1mmv[0m utility renames the file named by the [4msourc[24m[m[4me[24m[m
+     operand to the destination path named by the [4mtarget[24m operand.  This fo[mrm[m
+     is assumed when the last operand does not name an already existing di[mrec-[m
+     tory.[m
+[m
+     In its second form, [1mmv[0m moves each file named by a [4msource[24m operand to a[m
+     destination file in the existing directory named by the [4mdirectory[24m ope[mr-[m
+     and.  The destination path for each operand is the pathname produced [mby[m
+     the concatenation of the last operand, a slash, and the final pathnam[me[m
+     component of the named file.[m
+[m
+     The following options are available:[m
+[m
+     [1m-f[0m      Do not prompt for confirmation before overwriting the destina[mtion[m
+             path.  (The [1m-f[0m option overrides any previous [1m-i[0m or [1m-n[0m options[m:[K[K [KESCESC[KOO[KBB[K.)[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K     [1m-i[0m      Cause [1mmv[0m to write a prompt to standard error before moving a [m:[K[K [KESCESC[KOO[KBB[Kfile[m
+:[K[K [KESCESC[KOO[KBB[K             that would overwrite an existing file.  If the response from [m:[K[K [KESCESC[KOO[KBB[Kthe[m
+:[K[K [KESCESC[KOO[KBB[K             standard input begins with the character `y' or `Y', the move[m:[K[K [KESCESC[KOO[KBB[K is[m
+:[K[K [KESCESC[KOO[KBB[K             attempted.  (The [1m-i[0m option overrides any previous [1m-f[0m or [1m-n[0m[m
+:[K[K [KESCESC[KOO[KBB[K             options.)[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K     [1m-n[0m      Do not overwrite an existing file.  (The [1m-n[0m option overrides [m:[K[K [KESCESC[KOO[KBB[Kany[m
+:[K[K [KESCESC[KOO[KBB[K             previous [1m-f[0m or [1m-i[0m options.)[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K     [1m-v[0m      Cause [1mmv[0m to be verbose, showing files after they are moved.[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K     It is an error for either the [4msource[24m operand or the destination path [m:[K[K [KESCESC[KOO[KBB[Kto[m
+:[K[K [KESCESC[KOO[KBB[K     specify a directory unless both do.[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K     If the destination path does not have a mode which permits writing, [1mm[0m[m:[K[K [KESCESC[KOO[KBB[K[1mv[0m[m
+:[K[K [KESCESC[KOO[KBB[K     prompts the user for confirmation as specified for the [1m-i[0m option.[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K     As the rename(2) call does not work across file systems, [1mmv[0m uses cp(1[m:[K[K [KESCESC[KOO[KBB[K)[m
+:[K[K [KESCESC[KOO[KBB[K     and rm(1) to accomplish the move.  The effect is equivalent to:[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K           rm -f destination_path && \[m
+:[K[K [KESCESC[KOO[KBB[K           cp -pRP source_file destination && \[m
+:[K[K [KESCESC[KOO[KBB[K           rm -rf source_file[m
+:[K[K [KESCESC[KOO[KAA[K[HM     [1m-f[0m      Do not prompt for confirmation before overwriting the destina[m[35;1H[K:[K[K [KESCESC[KOO[KBB[K           rm -rf source_file[m
+:[K[K [KESCESC[KOO[KAA[K[HM     [1m-f[0m      Do not prompt for confirmation before overwriting the destina[m[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     The following options are available:[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     component of the named file.[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HMe[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     the concatenation of the last operand, a slash, and the final pathnam[m[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HMby[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     and.  The destination path for each operand is the pathname produced [m[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HMr-[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     destination file in the existing directory named by the [4mdirectory[24m ope[m[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     In its second form, [1mmv[0m moves each file named by a [4msource[24m operand to a[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     tory.[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HMrec-[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     is assumed when the last operand does not name an already existing di[m[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HMrm[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     operand to the destination path named by the [4mtarget[24m operand.  This fo[m[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[4me[24m[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     In its first form, the [1mmv[0m utility renames the file named by the [4msourc[24m[m[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1mmv[0m [[1m-f[0m | [1m-i[0m | [1m-n[0m] [[1m-v[0m] [4msource[24m [4m...[24m [4mdirectory[24m[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1mmv[0m [[1m-f[0m | [1m-i[0m | [1m-n[0m] [[1m-v[0m] [4msource[24m [4mtarget[24m[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1mmv[0m -- move files[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HMV(1)[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HMMV(1)                     BSD General Commands Manual                    M[m[35;1H[K:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K     [1m-i[0m      Cause [1mmv[0m to write a prompt to standard error before moving a [m:[K[K [KESCESC[KOO[KBB[Kfile[m
+:[K[K [KESCESC[KOO[KBB[K             that would overwrite an existing file.  If the response from [m:[K[K [KESCESC[KOO[KBB[Kthe[m
+:[K[K [KESCESC[KOO[KBB[K             standard input begins with the character `y' or `Y', the move[m:[K[K [KESCESC[KOO[KBB[K is[m
+:[K[K [KESCESC[KOO[KBB[K             attempted.  (The [1m-i[0m option overrides any previous [1m-f[0m or [1m-n[0m[m
+:[K[K [KESCESC[KOO[KBB[K             options.)[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KAA[K[HM[m
+[35;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1mmv[0m [[1m-f[0m | [1m-i[0m | [1m-n[0m] [[1m-v[0m] [4msource[24m [4m...[24m [4mdirectory[24m[m
+[35;1H[K:[K[K [KESCESC[KOO[KBB[K             options.)[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K     [1m-n[0m      Do not overwrite an existing file.  (The [1m-n[0m option overrides [m:[K[K[?1l>[?1049l[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:44:28]
+[1m[31m$ [00m[K[?1h=man mv      rrm vendor[1m/[0m[0m       app[1m/[0m[0m/assets[1m/[0m[0m/
+[J[1;31mimages[0m/       [J[1;31mjavascripts[0m/  [J[1;31mstylesheets[0m/[JM[0m[23m[24m[2Crm app/assets/[Kimages[1m/[0m[0m [21D[1C[1C[1C-app/assets/images[17Drapp/assets/images[17Dfapp/assets/images[17D app/assets/images[17D[?1l>
+[Jkrm\[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:44:47]
+[1m[31m$ [00m[K[?1h=rm -rf app/assets/images[24Dman mv                  [18Dmv -r vendor/assets/images/ app/assets[?1l>
+kmv\mv: invalid option -- 'r'
+Try 'mv --help' for more information.
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:44:50]
+[1m[31m$ [00m[K[?1h=mv -r vendor/assets/images/ app/assets[38D[1C[1C[1C[P[34C [35D[P[33C [34D[?1l>
+kmv\[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[23:44:52]
+[1m[31m$ [00m[K[?1h=lls app[1m/[0m[0m/assets[1m/[0m[0m/
+[J[1;31mimages[0m/       [J[1;31mjavascripts[0m/  [J[1;31mstylesheets[0m/[JM[0m[23m[24m[2Cls app/assets/[Kimages[1m/[0m[0m/
+[J[1;32m0.png[0m*  [1;32m4.png[0m*                  [1;32mcancel-off.png[0m*  [1;32mstar-half-mono.png[0m*
+[1;32m1.png[0m*  [1;32m5.png[0m*                  [1;32mcancel-on.png[0m*   [1;32mstar-half.png[0m*     
+[1;32m2.png[0m*  [1;32mcancel-custom-off.png[0m*  [1;32moff.png[0m*         [1;32mstar-off.png[0m*      
+[J[1;32m3.png[0m*  [J[1;32mcancel-custom-on.png[0m*   [J[1;32mon.png[0m*          [J[1;32mstar-on.png[0m*       [J[4A[0m[23m[24m[2Cls app/assets/images/[K[21D
+[JM[2C                     [21Dls app/assets/images/a 
+[J[1;32m0.png[0m*  [1;32m4.png[0m*                  [1;32mcancel-off.png[0m*  [1;32mstar-half-mono.png[0m*
+[1;32m1.png[0m*  [1;32m5.png[0m*                  [1;32mcancel-on.png[0m*   [1;32mstar-half.png[0m*     
+[1;32m2.png[0m*  [1;32mcancel-custom-off.png[0m*  [1;32moff.png[0m*         [1;32mstar-off.png[0m*      
+[J[1;32m3.png[0m*  [J[1;32mcancel-custom-on.png[0m*   [J[1;32mon.png[0m*          [J[1;32mstar-on.png[0m*       [J[4A[0m[23m[24m[2Cls app/assets/images/[Ks
+[JM[24Ctar-
+[J[J[1;32mstar-half-mono.png[0m*  [J[1;32mstar-half.png[0m*  [J[1;32mstar-off.png[0m*  [J[1;32mstar-on.png[0m*[JM[0m[23m[24m[2Cls app/assets/images/star-[Khal
+[JM[31C[26Dvendor/assets/javascripts [25Denfd-5161_rui_kiriyama.part2.rar -l[35DDownloads/*.rar                    [20D[15Denfd-5161_rui_kiriyama.part2.rar -l[35Dvendor/assets/javascripts          [10D[25Dapp/assets/images/star-hal[26Dvendor/assets/javascripts [25Denfd-5161_rui_kiriyama.part2.rar -l[35DDownloads/*.rar                    [20D[15D~/Downloads/bootstrap-tagsinput/bootstrap-tagsinput.js vendor/assets/javascripts[KM[9D[K[1B[KM[2Cddb  rrails g migration Dele    ChangeColumn Posts Rate:float                             [29Dchange_datatype_title_of        rate_of_posts[?1l>[1B[Jkrails\[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20150728151401_change_datatype_rate_of_posts.rb
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[0:14:02]
+[1m[31m$ [00m[K[?1h=rrake db:migrate[?1l>
+kdb:migrate\== 20150728151401 ChangeDatatypeRateOfPosts: migrating ========================
+-- change_column(:posts, :rate, :float)
+   -> 0.0119s
+== 20150728151401 ChangeDatatypeRateOfPosts: migrated (0.0120s) ===============
+
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[0:15:54]
+[1m[31m$ [00m[K[?1h=rrake:   db:migrate:status[?1l>
+kdb:migrate:status\
+database: /Users/ysk/Dropbox/work/nuitter/db/development.sqlite3
+
+ Status   Migration ID    Migration Name
+--------------------------------------------------
+   up     20150727161042  Create posts
+   up     20150727163930  Devise create users
+   up     20150728042955  ********** NO FILE **********
+   up     20150728044611  ********** NO FILE **********
+   up     20150728045044  Add tag to posts
+   up     20150728065609  Acts as taggable on migration.acts as taggable on engine
+   up     20150728065610  Add missing unique indices.acts as taggable on engine
+   up     20150728065611  Add taggings counter cache to tags.acts as taggable on engine
+   up     20150728065612  Add missing taggable index.acts as taggable on engine
+   up     20150728065613  Change collation for tag names.acts as taggable on engine
+   up     20150728093740  ********** NO FILE **********
+   up     20150728100305  Remove time from posts
+   up     20150728100332  Remove date from posts
+   up     20150728100446  Add date time from posts
+   up     20150728131857  Add rate to posts
+   up     20150728132056  Add private to posts
+   up     20150728133804  Add account to posts
+   up     20150728133829  Add name to users
+   up     20150728134915  Add index to users email
+   up     20150728134928  Add index to users name
+   up     20150728151401  Change datatype rate of posts
+
+[1m[3m%[23m[1m[0m                                                                          k~/work/nuitter\[0m[23m[24m[J
+[1m[34m#[00m [36mysk [37mat [32mMICKY.local [37min [1m[33m~/work/nuitter[00m [37mon[00m git:[36mmaster [31mx[00m [37m[0:18:10]
+[1m[31m$ [00m[K[?1h=rake db:migrate:status

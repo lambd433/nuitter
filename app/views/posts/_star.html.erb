@@ -1,0 +1,22 @@
+<script type="text/javascript">
+  <!--
+  $(function(){
+    $('#star_rank').raty({
+      half     : true,
+      size     : 24,
+      starHalf : '<%= asset_path('star-half-big.png') %>',
+      starOff  : '<%= asset_path('star-off-big.png') %>',
+      starOn   : '<%= asset_path('star-on-big.png') %>',
+      target    : '#hint',
+      targetType: 'number',
+      targetKeep: true,
+    click: function(score, evt) {
+//	      alert('ID: ' + $(this).attr('id') + "\nscore: " + score + "\nevent: " + evt); //選択時に要素をアラート
+      $("#star_rank_score").val(score);
+    }
+  });
+  });
+  //-->
+  </script>
+<div id="star_rank"></div><div id="hint"></div>
+<%= f.hidden_field :star_rank_score %>

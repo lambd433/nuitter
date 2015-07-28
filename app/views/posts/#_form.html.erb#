@@ -47,10 +47,8 @@
       targetKeep: true,
       scoreName: 'rate',
     click: function(score, evt) {
-    raty = $(evt.target).parent()
-    $(raty.data('field')).val(score)
-    score: -> 
-    $($(this).data('field')).val()
+    //	      alert('ID: ' + $(this).attr('id') + "\nscore: " + score + "\nevent: " + evt); //選択時に要素をアラート
+      $("#rate").val(score);
     }
   });
   });
